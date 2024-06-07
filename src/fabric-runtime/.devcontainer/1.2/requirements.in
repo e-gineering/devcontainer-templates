@@ -1,0 +1,7 @@
+pip-tools
+requests
+
+# Matching the Runtime 1.2 in Fabric
+# https://learn.microsoft.com/en-us/fabric/data-engineering/runtime-1-2
+pyspark==3.4.1
+delta-spark==2.4.0
