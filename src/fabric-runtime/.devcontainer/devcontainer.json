@@ -1,7 +1,7 @@
 {
   "name": "Fabric Runtime ${templateOption:imageVariant}",
   "build": {
-    "dockerfile": "${templateOption:imageVariant}/Dockerfile"
+    "dockerfile": ".devcontainer/${templateOption:imageVariant}/Dockerfile"
   }
   // "image": "mcr.microsoft.com/devcontainers/python:1-3.10-bookworm", // Matching Fabric Runtime 1.2
   // "features": {
