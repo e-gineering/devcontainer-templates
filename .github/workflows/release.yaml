@@ -1,5 +1,8 @@
 name: "Release Dev Container Templates & Generate Documentation"
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
