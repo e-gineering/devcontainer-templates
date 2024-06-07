@@ -12,13 +12,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Build images
+        uses: devcontainers/ci@v0.3
+        with:
+          imageName: ghcr.io/e-gineering/fabric-runtime
+          cacheFrom: ghcr.io/e-gineering/fabric-runtime
+          push: always
+          subFolder: src/fabric-runtime
+
       - name: "Publish Templates"
         uses: devcontainers/action@v1
         with:
           publish-templates: "true"
           base-path-to-templates: "./src"
           generate-docs: "true"
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
