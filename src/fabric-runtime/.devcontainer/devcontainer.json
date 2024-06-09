@@ -1,17 +1,4 @@
 {
   "name": "Fabric Runtime ${templateOption:imageVariant}",
-  "build": {
-    // "dockerfile": "${templateOption:imageVariant}/Dockerfile"
-    "dockerfile": "1.2/Dockerfile"
-  }
-  // "image": "mcr.microsoft.com/devcontainers/python:1-3.10-bookworm", // Matching Fabric Runtime 1.2
-  // "features": {
-  //     "ghcr.io/devcontainers/features/java:1": {
-  //         "version": "11" // Matching Fabric Runtime 1.2
-  //     },
-  //     "ghcr.io/devcontainers-contrib/features/apt-packages:1": {
-  //         "packages": "bash-completion"
-  //     }
-  // },
-  // "onCreateCommand": "pip install --user --requirement .devcontainer/requirements.txt",
+  "image": "ghcr.io/e-gineering/devcontainer-images/fabric-runtime:${templateOption:imageVariant}"
 }
