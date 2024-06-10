@@ -2,7 +2,7 @@
   "id": "fabric-runtime",
   "version": "0.1.0",
   "name": "Fabric Runtime",
-  "description": "Mimics the Microsoft Fabric Runtime for local development of notebooks.",
+  "description": "Mimics the Microsoft Fabric Runtime for local development of PySpark notebooks.",
   "documentationURL": "https://github.com/e-gineering/devcontainer-templates/tree/main/src/fabric-runtime",
   "licenseURL": "https://github.com/e-gineering/devcontainer-templates/blob/main/LICENSE",
   "options": {
