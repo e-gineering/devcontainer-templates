@@ -23,17 +23,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Build images
-      #   uses: devcontainers/ci@v0.3
-      #   # Options: https://github.com/devcontainers/ci/blob/main/action.yml
-      #   with:
-      #     imageName: ghcr.io/${{ github.repository }}/fabric-runtime
-      #     cacheFrom: ghcr.io/${{ github.repository }}/fabric-runtime
-      #     imageTag: 1.2
-      #     push: always
-      #     subFolder: src/fabric-runtime
-
-      - name: "Publish Templates"
+      - name: Publish Templates
         uses: devcontainers/action@v1
         with:
           publish-templates: "true"
