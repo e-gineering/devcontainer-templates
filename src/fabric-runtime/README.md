@@ -1,7 +1,7 @@
 
 # Fabric Runtime (fabric-runtime)
 
-Mimics the Microsoft Fabric Runtime for local development of notebooks.
+Mimics the Microsoft Fabric Runtime for local development of PySpark notebooks.
 
 ## Options
 
