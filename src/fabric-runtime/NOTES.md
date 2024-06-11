@@ -1,4 +1,4 @@
-## Examples
+## Using this template
 
 Get started with a `.devcontainer/devcontainer.json` like:
 
@@ -25,7 +25,7 @@ These images are created with PySpark workloads in mind, so you'll find Python a
 
 You can find the image sources here: https://github.com/e-gineering/devcontainer-images/tree/main/src/fabric-runtime
 
-## Versions
+## Software versions
 
 The software versions are pinned to track the versions listed in the Microsoft [docs](https://learn.microsoft.com/en-us/fabric/data-engineering/runtime).
 
