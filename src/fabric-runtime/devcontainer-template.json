@@ -1,6 +1,6 @@
 {
   "id": "fabric-runtime",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "Fabric Runtime",
   "description": "Mimics the Microsoft Fabric Runtime for local development of PySpark notebooks.",
   "documentationURL": "https://github.com/e-gineering/devcontainer-templates/tree/main/src/fabric-runtime",
@@ -10,7 +10,9 @@
       "type": "string",
       "description": "Version of the Fabric Runtime to use",
       "proposals": [
-        "1.2"
+        "1.1",
+        "1.2",
+        "1.3"
       ],
       "default": "1.2"
     }
